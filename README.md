@@ -40,8 +40,28 @@ Buzz
 ## Setup
 
 1. Clone repository
-2. Install dependencies
+
+```
+git clone git@github.com:shadowinek/fizzbuzz.git
+cd fizzbuzz
+```
+
+2. Install the app dependencies
+
+```
+composer install
+```
+
 3. How to run
+```
+php fizzbuzz.php [amount]
+```
+
 4. How to run tests
+```
+./vendor/bin/phpunit tests  
+```
 
 ## Dev Diary
+01/06 11:55
+- Started with the implementation. I am trying to do the TDD approach, so I will write some basic tests first 
