@@ -70,7 +70,7 @@ php fizzbuzz.php [amount]
 - Basic implementation done
 - Todo: add tests to cover the requested scenario of input value of 100
 
-01/06 12:20
+01/06 12:28
 - Made the naming more consistent
 - Moved print to the "controller", so the class is used only for data processing and not decorating the output
 - Added some more tests
