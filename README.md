@@ -65,3 +65,7 @@ php fizzbuzz.php [amount]
 ## Dev Diary
 01/06 11:55
 - Started with the implementation. I am trying to do the TDD approach, so I will write some basic tests first 
+
+01/06 12:02
+- Basic implementation done
+- Todo: add tests to cover the requested scenario of input value of 100
