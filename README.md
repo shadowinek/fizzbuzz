@@ -69,3 +69,10 @@ php fizzbuzz.php [amount]
 01/06 12:02
 - Basic implementation done
 - Todo: add tests to cover the requested scenario of input value of 100
+
+01/06 12:20
+- Made the naming more consistent
+- Moved print to the "controller", so the class is used only for data processing and not decorating the output
+- Added some more tests
+- Final changes
+- What is missing: Advanced input checks, right now I assume you use only the correct input

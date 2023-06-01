@@ -2,13 +2,20 @@
     "name": "shadowinek/fizzbuzz",
     "description": "FizzBuzz implementation",
     "type": "project",
+    "require": {
+        "php": "^8.1"
+    },
     "require-dev": {
         "phpunit/phpunit": "^10.1"
     },
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Shadowinek\\Fizzbuzz\\": "src/",
+            "Shadowinek\\FizzBuzz\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
             "Tests\\": "tests/"
         }
     },
@@ -17,5 +24,6 @@
             "name": "Milan Beran",
             "email": "milan.beran@gmail.com"
         }
-    ]
+    ],
+    "minimum-stability": "dev"
 }

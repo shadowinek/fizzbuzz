@@ -1,6 +1,6 @@
 <?php
 
-namespace Shadowinek\Fizzbuzz;
+namespace Shadowinek\FizzBuzz;
 
 class FizzBuzz
 {
@@ -9,11 +9,11 @@ class FizzBuzz
     public function execute(int $amount): void
     {
         for ($i=1;$i<=$amount;$i++) {
-            $this->output[] = $this->getFizzBuzz($i);
+            $this->output[] = $this->getFizzBuzzValue($i);
         }
     }
 
-    private function getFizzBuzz(int $value): int|string
+    private function getFizzBuzzValue(int $value): int|string
     {
         $modulo_3 = $value % 3 === 0;
         $modulo_5 = $value % 5 === 0;
@@ -27,12 +27,6 @@ class FizzBuzz
         } else {
             return $value;
         }
-    }
-
-    public function print(): void
-    {
-        echo implode(PHP_EOL, $this->output);
-        echo PHP_EOL;
     }
 
     public function getOutput(): array
